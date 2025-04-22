@@ -1,0 +1,22 @@
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>Orlando Tapes</title>
+    <link>https://orlandotapes.github.io</link>
+    <description>Live music performances captured in Orlando, FL</description>
+    <language>en-us</language>
+    <pubDate>Mon, 21 Apr 2025 00:00:00 GMT</pubDate>
+    <lastBuildDate>Mon, 21 Apr 2025 00:00:00 GMT</lastBuildDate>
+    <catorgory>Music</category>
+    <image>
+      <url>https://orlandotapes.github.io/images/dogsmiles.jpg</url>
+      <title>Orlando Tapes</title>
+      <link>https://orlandotapes.github.io</link>
+    <item>
+        <title>Youth To The Front - Dogsmiles Live at Will's Pub</title>
+        <link>https://orlandotapes.github.io/mp3s/YTF-Dogsmiles-4.19.25-wills-pug.mp3</link>
+        <description>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</description>
+        <pubDate>Mon, 21 Apr 2025 00:00:00 GMT</pubDate>
+        <enclosure url="https://orlandotapes.github.io/mp3s/YTF-Dogsmiles-4.19.25-wills-pug.mp3" length="12345678" type="audio/mpeg"/>
+        <guid isPermaLink="false">https://orlandotapes.github.io/mp3s/YTF-Dogsmiles-4.19.25-wills-pug.mp3</guid>
+        <itunes:image href="https://orlandotapes.github.io/images/dogsmiles.jpg" />    
+    </item>
