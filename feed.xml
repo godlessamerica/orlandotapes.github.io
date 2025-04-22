@@ -1,4 +1,4 @@
-<rss version="2.0">
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Orlando Tapes</title>
     <link>https://orlandotapes.github.io</link>
