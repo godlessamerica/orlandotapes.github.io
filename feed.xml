@@ -41,5 +41,5 @@
         <podcast:podcastOwner>
             <podcast:name>Orlando Tapes</podcast:name>
             <podcast:email>jordan@duttinger.com</podcast:email>
-    </item>
-</rss>
+        </podcast:podcastOwner>
+    </rss>
