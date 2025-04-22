@@ -1,25 +1,25 @@
 <rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Orlando Tapes</title>
-    <link>https://orlandotapes.github.io</link>
+    <link>https://godlessamerica.github.io.orlandotapes/</link>
     <description>Live music performances captured in Orlando, FL</description>
     <language>en-us</language>
     <pubDate>Mon, 21 Apr 2025 00:00:00 GMT</pubDate>
     <lastBuildDate>Mon, 21 Apr 2025 00:00:00 GMT</lastBuildDate>
     <category>Music</category>
     <image>
-      <url>https://orlandotapes.github.io/images/dogsmiles.jpg</url>
+      <url>https://https://godlessamerica.github.io.orlandotapes//images/dogsmiles.jpg</url>
       <title>Orlando Tapes</title>
       <link>https://orlandotapes.github.io</link>
     </image>
     </channel>
     <item>
         <title>Youth To The Front - Dogsmiles Live at Will's Pub</title>
-        <link>https://orlandotapes.github.io/mp3s/YTF-Dogsmiles-4.19.25-wills-pub.mp3</link>
+        <link>https://godlessamerica.github.io.orlandotapes/mp3s/YTF-Dogsmiles-4.19.25-wills-pub.mp3</link>
         <description>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</description>
         <pubDate>Mon, 21 Apr 2025 00:00:00 GMT</pubDate>
-        <enclosure url="https://orlandotapes.github.io/mp3s/YTF-Dogsmiles-4.19.25-wills-pug.mp3" length="26533683" type="audio/mpeg"/>
+        <enclosure url="https://godlessamerica.github.io.orlandotapes//mp3s/YTF-Dogsmiles-4.19.25-wills-pug.mp3" length="26533683" type="audio/mpeg"/>
         <guid isPermaLink="true">https://orlandotapes.github.io/mp3s/YTF-Dogsmiles-4.19.25-wills-pug.mp3</guid>
-        <itunes:image href="https://orlandotapes.github.io/images/dogsmiles.jpg" />    
+        <itunes:image href="https://godlessamerica.github.io.orlandotapes//images/dogsmiles.jpg" />    
     </item>
 </rss>
