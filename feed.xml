@@ -12,6 +12,7 @@
       <title>Orlando Tapes</title>
       <link>https://orlandotapes.github.io</link>
     </image>
+    </channel>
     <item>
         <title>Youth To The Front - Dogsmiles Live at Will's Pub</title>
         <link>https://orlandotapes.github.io/mp3s/YTF-Dogsmiles-4.19.25-wills-pub.mp3</link>
@@ -21,5 +22,4 @@
         <guid isPermaLink="true">https://orlandotapes.github.io/mp3s/YTF-Dogsmiles-4.19.25-wills-pug.mp3</guid>
         <itunes:image href="https://orlandotapes.github.io/images/dogsmiles.jpg" />    
     </item>
-    </channel>
 </rss>
