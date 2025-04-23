@@ -13,7 +13,6 @@
       <title>Orlando Tapes</title>
       <link>https://godlessamerica.github.io.orlandotapes.github.io</link>
     </image>
-    </channel>
     <item>
         <title>Youth To The Front - Dogsmiles Live at Will's Pub</title>
         <link>https://godlessamerica.github.io.orlandotapes.github.io/mp3s/YTF-Dogsmiles-4.19.25-wills-pub.mp3</link>
@@ -39,8 +38,8 @@
         <podcast:podcastCategory>Music</podcast:podcastCategory>
         <podcast:podcastCopyright>© 2025 Orlando Tapes</podcast:podcastCopyright>
         <podcast:podcastOwner>
-            <podcast:name>Orlando Tapes</podcast:name>
-            <podcast:email>jordan@duttinger.com</podcast:email>
+        <podcast:name>Orlando Tapes</podcast:name>
+        <podcast:email>jordan@duttinger.com</podcast:email>
         </podcast:podcastOwner>
     </item>
  </channel>
