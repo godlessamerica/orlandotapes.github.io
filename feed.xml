@@ -50,14 +50,27 @@
       <pubDate>Mon, 27 Apr 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Soft-4.19.25-wills-pub.mp3" length="26533683" type="audio/mpeg" />
       <guid isPermaLink="true">https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Soft-4.19.25-wills-pub.mp3</guid>
-      <ns2:image href="https://github.com/godlessamerica/orlandotapes.github.io/blob/main/images/soft.jpg?raw=true" />
-      <ns2:author>Orlando Tapes</itunes:author>
-      <ns2:summary>Youth To The Front presents a live performance by Soft at Will's Pub, showcasing their unique sound and energy.</itunes:summary>
-      <ns2:duration>00:15:47</itunes:duration>
-      <podcast:episodeType>full</podcast:episodeType>
-      <podcast:explicit>no</podcast:explicit>
-      <podcast:season>1</podcast:season>
-      <podcast:episode>2</podcast:episode>
+      <ns0:image href="https://github.com/godlessamerica/orlandotapes.github.io/blob/main/images/soft.jpg?raw=true" />
+      <ns0:author>Orlando Tapes</itunes:author>
+      <ns0:summary>Youth To The Front presents a live performance by Soft at Will's Pub, showcasing their unique sound and energy.</itunes:summary>
+      <ns0:duration>00:15:47</itunes:duration>
+      <ns1:episodeType>full</ns1:episodeType>
+      <ns1:explicit>no</ns1:explicit>
+      <ns1:season>1</ns1:season>
+      <ns1:episode>2</ns1:episode>
+      <ns1:podcastId>https://godlessamerica.github.io/orlandotapes.github.io</ns1:podcastId>
+      <ns1:podcastTitle>Orlando Tapes</ns1:podcastTitle>
+      <ns1:podcastDescription>Live music performances captured in Orlando, FL</ns1:podcastDescription>
+      <ns1:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/soft.jpg</ns1:podcastImage>
+      <ns1:podcastAuthor>Orlando Tapes</ns1:podcastAuthor>
+      <ns1:podcastLink>https://godlessamerica.github.io.orlandotapes.github.io</ns1:podcastLink>
+      <ns1:podcastLanguage>en-us</ns1:podcastLanguage>
+      <ns1:podcastCategory>Music</ns1:podcastCategory>
+      <ns1:podcastCopyright>© 2025 Orlando Tapes</ns1:podcastCopyright>
+      <ns1:podcastOwner>
+        <ns1:name>Orlando Tapes</ns1:name>
+        <ns1:email>jordan@duttinger.com</ns1:email>
+      </ns1:podcastOwner>
     </item>
   </channel>
 </rss>
