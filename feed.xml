@@ -59,4 +59,5 @@
       <podcast:season>1</podcast:season>
       <podcast:episode>2</podcast:episode>
     </item>
+  </channel>
 </rss>
