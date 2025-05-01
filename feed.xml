@@ -2,9 +2,9 @@
 <rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns1="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
     <title>Orlando Tapes</title>
-    <link>https://godlessamerica.github.io/orlandotapes.github.io</link>
+    <link>https://orlandotapes.com</link>
     <description>Live music performances captured in Orlando, FL</description>
-    <language>en-us</language>
+    <language>en-US</language>
     <pubDate>Mon, 21 Apr 2025 00:00:00 GMT</pubDate>
     <lastBuildDate>Mon, 21 Apr 2025 00:00:00 GMT</lastBuildDate>
     <category>Music</category>
@@ -12,7 +12,7 @@
       <url>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/soft.jpg
       </url>
       <title>Orlando Tapes</title>
-      <link>https://godlessamerica.github.io/orlandotapes.github.io</link>
+      <link>https://orlandotapes.com</link>
     </image>
     <item>
         <title>Youth To The Front - Dogsmiles Live at Will's Pub</title>
@@ -29,12 +29,12 @@
         <ns1:explicit>no</ns1:explicit>
         <ns1:season>1</ns1:season>
         <ns1:episode>1</ns1:episode>
-        <ns1:podcastId>https://godlessamerica.github.io/orlandotapes.github.io</ns1:podcastId>
+        <ns1:podcastId>https://orlandotapes.com</ns1:podcastId>
         <ns1:podcastTitle>Orlando Tapes</ns1:podcastTitle>
         <ns1:podcastDescription>Live music performances captured in Orlando, FL</ns1:podcastDescription>
         <ns1:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/dogsmiles.jpg</ns1:podcastImage>
         <ns1:podcastAuthor>Orlando Tapes</ns1:podcastAuthor>
-        <ns1:podcastLink>https://godlessamerica.github.io.orlandotapes.github.io</ns1:podcastLink>
+        <ns1:podcastLink>https://orlandtapes.com</ns1:podcastLink>
         <ns1:podcastLanguage>en-us</ns1:podcastLanguage>
         <ns1:podcastCategory>Music</ns1:podcastCategory>
         <ns1:podcastCopyright>© 2025 Orlando Tapes</ns1:podcastCopyright>
@@ -58,12 +58,12 @@
       <ns1:explicit>no</ns1:explicit>
       <ns1:season>1</ns1:season>
       <ns1:episode>2</ns1:episode>
-      <ns1:podcastId>https://godlessamerica.github.io/orlandotapes.github.io</ns1:podcastId>
+      <ns1:podcastId>https://orlandotapes.com</ns1:podcastId>
       <ns1:podcastTitle>Orlando Tapes</ns1:podcastTitle>
       <ns1:podcastDescription>Live music performances captured in Orlando, FL</ns1:podcastDescription>
       <ns1:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/soft.jpg</ns1:podcastImage>
       <ns1:podcastAuthor>Orlando Tapes</ns1:podcastAuthor>
-      <ns1:podcastLink>https://godlessamerica.github.io.orlandotapes.github.io</ns1:podcastLink>
+      <ns1:podcastLink>https://orlandotapes.com</ns1:podcastLink>
       <ns1:podcastLanguage>en-us</ns1:podcastLanguage>
       <ns1:podcastCategory>Music</ns1:podcastCategory>
       <ns1:podcastCopyright>© 2025 Orlando Tapes</ns1:podcastCopyright>
