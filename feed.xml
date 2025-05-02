@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns1="https://podcastindex.org/namespace/1.0" version="2.0">
+<rss xmlns:podcast="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
     <title>Orlando Tapes</title>
     <link>https://orlandotapes.com</link>
@@ -21,27 +21,27 @@
         <pubDate>Mon, 21 Apr 2025 00:00:00 GMT</pubDate>
         <enclosure url="https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Dogsmiles-4.19.25-wills-pub.mp3" length="26533683" type="audio/mpeg" />
         <guid isPermaLink="true">https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Dogsmiles-4.19.25-wills-pub.mp3</guid>
-        <ns0:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/dogsmiles.jpg" />    
-        <ns0:author>Orlando Tapes</ns0:author>
-        <ns0:summary>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</ns0:summary>
-        <ns0:duration>00:18:10</ns0:duration>
-        <ns1:episodeType>full</ns1:episodeType>
-        <ns1:explicit>no</ns1:explicit>
-        <ns1:season>1</ns1:season>
-        <ns1:episode>1</ns1:episode>
-        <ns1:podcastId>https://orlandotapes.com</ns1:podcastId>
-        <ns1:podcastTitle>Orlando Tapes</ns1:podcastTitle>
-        <ns1:podcastDescription>Live music performances captured in Orlando, FL</ns1:podcastDescription>
-        <ns1:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/dogsmiles.jpg</ns1:podcastImage>
-        <ns1:podcastAuthor>Orlando Tapes</ns1:podcastAuthor>
-        <ns1:podcastLink>https://orlandtapes.com</ns1:podcastLink>
-        <ns1:podcastLanguage>en-us</ns1:podcastLanguage>
-        <ns1:podcastCategory>Music</ns1:podcastCategory>
-        <ns1:podcastCopyright>© 2025 Orlando Tapes</ns1:podcastCopyright>
-        <ns1:podcastOwner>
-        <ns1:name>Orlando Tapes</ns1:name>
-        <ns1:email>jordan@duttinger.com</ns1:email>
-        </ns1:podcastOwner>
+        <podcast:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/dogsmiles.jpg" />    
+        <podcast:author>Orlando Tapes</podcast:author>
+        <podcast:summary>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</podcast:summary>
+        <podcast:duration>00:18:10</podcast:duration>
+        <podcast:episodeType>full</podcast:episodeType>
+        <podcast:explicit>no</podcast:explicit>
+        <podcast:season>1</podcast:season>
+        <podcast:episode>1</podcast:episode>
+        <podcast:podcastId>https://orlandotapes.com</podcast:podcastId>
+        <podcast:podcastTitle>Orlando Tapes</podcast:podcastTitle>
+        <podcast:podcastDescription>Live music performances captured in Orlando, FL</podcast:podcastDescription>
+        <podcast:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/dogsmiles.jpg</podcast:podcastImage>
+        <podcast:podcastAuthor>Orlando Tapes</podcast:podcastAuthor>
+        <podcast:podcastLink>https://orlandtapes.com</podcast:podcastLink>
+        <podcast:podcastLanguage>en-us</podcast:podcastLanguage>
+        <podcast:podcastCategory>Music</podcast:podcastCategory>
+        <podcast:podcastCopyright>© 2025 Orlando Tapes</podcast:podcastCopyright>
+        <podcast:podcastOwner>
+        <podcast:name>Orlando Tapes</podcast:name>
+        <podcast:email>jordan@duttinger.com</podcast:email>
+        </podcast:podcastOwner>
     </item>
     <item>
       <title>Youth To The Front - Soft Live at Will's Pub</title>
@@ -50,27 +50,27 @@
       <pubDate>Mon, 27 Apr 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Soft-4.19.25-wills-pub.mp3" length="26533683" type="audio/mpeg" />
       <guid isPermaLink="true">https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Soft-4.19.25-wills-pub.mp3</guid>
-      <ns0:image href="https://github.com/godlessamerica/orlandotapes.github.io/blob/main/images/soft.jpg?raw=true" />
-      <ns0:author>Orlando Tapes</ns0:author>
-      <ns0:summary>Youth To The Front presents a live performance by Soft at Will's Pub, showcasing their unique sound and energy.</ns0:summary>
-      <ns0:duration>00:15:47</ns0:duration>
-      <ns1:episodeType>full</ns1:episodeType>
-      <ns1:explicit>no</ns1:explicit>
-      <ns1:season>1</ns1:season>
-      <ns1:episode>2</ns1:episode>
-      <ns1:podcastId>https://orlandotapes.com</ns1:podcastId>
-      <ns1:podcastTitle>Orlando Tapes</ns1:podcastTitle>
-      <ns1:podcastDescription>Live music performances captured in Orlando, FL</ns1:podcastDescription>
-      <ns1:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/soft.jpg</ns1:podcastImage>
-      <ns1:podcastAuthor>Orlando Tapes</ns1:podcastAuthor>
-      <ns1:podcastLink>https://orlandotapes.com</ns1:podcastLink>
-      <ns1:podcastLanguage>en-us</ns1:podcastLanguage>
-      <ns1:podcastCategory>Music</ns1:podcastCategory>
-      <ns1:podcastCopyright>© 2025 Orlando Tapes</ns1:podcastCopyright>
-      <ns1:podcastOwner>
-        <ns1:name>Orlando Tapes</ns1:name>
-        <ns1:email>jordan@duttinger.com</ns1:email>
-      </ns1:podcastOwner>
+      <podcast:image href="https://github.com/godlessamerica/orlandotapes.github.io/blob/main/images/soft.jpg?raw=true" />
+      <podcast:author>Orlando Tapes</podcast:author>
+      <podcast:summary>Youth To The Front presents a live performance by Soft at Will's Pub, showcasing their unique sound and energy.</podcast:summary>
+      <podcast:duration>00:15:47</podcast:duration>
+      <podcast:episodeType>full</podcast:episodeType>
+      <podcast:explicit>no</podcast:explicit>
+      <podcast:season>1</podcast:season>
+      <podcast:episode>2</podcast:episode>
+      <podcast:podcastId>https://orlandotapes.com</podcast:podcastId>
+      <podcast:podcastTitle>Orlando Tapes</podcast:podcastTitle>
+      <podcast:podcastDescription>Live music performances captured in Orlando, FL</podcast:podcastDescription>
+      <podcast:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/soft.jpg</podcast:podcastImage>
+      <podcast:podcastAuthor>Orlando Tapes</podcast:podcastAuthor>
+      <podcast:podcastLink>https://orlandotapes.com</podcast:podcastLink>
+      <podcast:podcastLanguage>en-us</podcast:podcastLanguage>
+      <podcast:podcastCategory>Music</podcast:podcastCategory>
+      <podcast:podcastCopyright>© 2025 Orlando Tapes</podcast:podcastCopyright>
+      <podcast:podcastOwner>
+        <podcast:name>Orlando Tapes</podcast:name>
+        <podcast:email>jordan@duttinger.com</podcast:email>
+      </podcast:podcastOwner>
     </item>
   </channel>
 </rss>
