@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:podcast="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>Orlando Tapes</title>
     <link>https://orlandotapes.com</link>
