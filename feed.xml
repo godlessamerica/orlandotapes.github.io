@@ -50,10 +50,14 @@
         <podcast:email>jordan@duttinger.com</podcast:email>
       </podcast:podcastOwner>
       <itunes:author>Orlando Tapes</itunes:author>
+      <itunes:subtitle>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</itunes:subtitle>
       <itunes:summary>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</itunes:summary>
       <itunes:duration>00:18:10</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/soft.jpg" />
+      <itunes:explicit>true</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/dogsmiles.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>Youth To The Front - Soft Live at Will's Pub</title>
@@ -62,7 +66,6 @@
       <pubDate>Sun, 27 Apr 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Soft-4.19.25-wills-pub.mp3" length="26533683" type="audio/mpeg" />
       <guid isPermaLink="true">https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Soft-4.19.25-wills-pub.mp3</guid>
-      <itunes:image href="https://github.com/godlessamerica/orlandotapes.github.io/blob/main/images/soft.jpg?raw=true" />
       <podcast:author>Orlando Tapes</podcast:author>
       <podcast:summary>Youth To The Front presents a live performance by Soft at Will's Pub, showcasing their unique sound and energy.</podcast:summary>
       <podcast:duration>00:15:47</podcast:duration>
@@ -84,7 +87,12 @@
         <podcast:email>jordan@duttinger.com</podcast:email>
       </podcast:podcastOwner>
       <itunes:author>Orlando Tapes</itunes:author>
+      <itunes:subtitle>Youth To The Front presents a live performance by Soft at Will's Pub, showcasing their unique sound and energy.</itunes:subtitle>
       <itunes:summary>Youth To The Front presents a live performance by Soft at Will's Pub, showcasing their unique sound and energy.</itunes:summary>
+      <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/soft.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>00:15:47</itunes:duration>
       <itunes:explicit>true</itunes:explicit>
     </item>
