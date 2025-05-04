@@ -7,10 +7,6 @@
     <pubDate>Mon, 21 Apr 2025 00:00:00 GMT</pubDate>
     <lastBuildDate>Mon, 21 Apr 2025 00:00:00 GMT</lastBuildDate>
     <category>Music</category>
-    <itunes:owner>
-      <itunes:name>Orlando Tapes</itunes:name>
-      <itunes:email>jordan@duttinger.com</itunes:email>
-    </itunes:owner>
     <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/soft.jpg" />
     <atom:link href="https://orlandotapes.com/feed.xml" rel="self" type="application/rss+xml" />
     <itunes:category text="Music" />
@@ -31,10 +27,7 @@
       <podcast:author>Orlando Tapes</podcast:author>
       <podcast:summary>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</podcast:summary>
       <podcast:duration>00:18:10</podcast:duration>
-      <podcast:episodeType>full</podcast:episodeType>
-      <podcast:explicit>true</podcast:explicit>
-      <podcast:season>1</podcast:season>
-      <podcast:episode>1</podcast:episode>
+      <podcast:explicit>Yes</podcast:explicit>
       <podcast:podcastId>https://orlandotapes.com</podcast:podcastId>
       <podcast:podcastTitle>Orlando Tapes</podcast:podcastTitle>
       <podcast:podcastDescription>Live music performances captured in Orlando, FL</podcast:podcastDescription>
@@ -52,11 +45,9 @@
       <itunes:subtitle>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</itunes:subtitle>
       <itunes:summary>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</itunes:summary>
       <itunes:duration>00:18:10</itunes:duration>
-      <itunes:explicit>true</itunes:explicit>
+      <itunes:explicit>Yes</itunes:explicit>
       <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/dogsmiles.jpg" />
-      <itunes:season>1</itunes:season>
-      <itunes:episode>1</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
+    
     </item>
     <item>
       <title>Youth To The Front - Soft Live at Will's Pub</title>
