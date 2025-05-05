@@ -82,7 +82,7 @@
       <itunes:summary>Youth To The Front presents a live performance by Soft at Will's Pub, showcasing their unique sound and energy.</itunes:summary>
       <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/soft.jpg" />
       <itunes:duration>00:15:47</itunes:duration>
-      <itunes:explicit>true</itunes:explicit>
+      <podcast:explicit>Yes</podcast:explicit>
     </item>
   </channel>
 </rss>
