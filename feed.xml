@@ -7,7 +7,7 @@
     <pubDate>Mon, 21 Apr 2025 00:00:00 GMT</pubDate>
     <lastBuildDate>Mon, 21 Apr 2025 00:00:00 GMT</lastBuildDate>
     <category>Music</category>
-    <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/soft.jpg" />
+    <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/catnap.jpg" />
     <atom:link href="https://orlandotapes.com/feed.xml" rel="self" type="application/rss+xml" />
     <itunes:category text="Music" />
     <itunes:type>episodic</itunes:type>
@@ -82,5 +82,36 @@
       <itunes:duration>00:15:47</itunes:duration>
       <podcast:explicit>Yes</podcast:explicit>
     </item>
+    <item> 
+      <title>Youth To The Front - Catnap Live at Will's Pub</title>
+      <link>https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Catnap-4.19.25-wills-pub.mp3</link>
+      <description>Live performance by Catnap at Will's Pub, Orlando, FL on April 19, 2025.</description>
+      <pubDate>Mon, 5 May 2025 00:00:00 GMT</pubDate>
+      enclosure url="https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Catnap-4.19.25-wills-pub.mp3" length="26533683" type="audio/mpeg" />
+      <guid isPermaLink="true">https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Catnap-4.19.25-wills-pub.mp3</guid>
+      <podcast:author>Orlando Tapes</podcast:author>
+      <podcast:summary>Live performance by Catnap at Will's Pub, Orlando, FL on April 19, 2025.</podcast:summary>
+      <podcast:duration>00:22:28</podcast:duration>
+      <podcast:episodeType>full</podcast:episodeType>
+      <podcast:explicit>Yes</podcast:explicit>
+      <podcast:podcastId>https://orlandotapes.com</podcast:podcastId>
+      <podcast:podcastTitle>Orlando Tapes</podcast:podcastTitle>
+      <podcast:podcastDescription>Live music performances captured in Orlando, FL</podcast:podcastDescription>
+      <podcast:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/catnap.jpg</podcast:podcastImage>
+      <podcast:podcastAuthor>Orlando Tapes</podcast:podcastAuthor>
+      <podcast:podcastLink>https://orlandotapes.com</podcast:podcastLink>
+      <podcast:podcastLanguage>en-us</podcast:podcastLanguage>
+      <podcast:podcastCategory>Music</podcast:podcastCategory>
+      <podcast:podcastCopyright>© 2025 Orlando Tapes</podcast:podcastCopyright>
+      <podcast:podcastOwner>
+        <podcast:name>Orlando Tapes</podcast:name>
+        <podcast:email>jordan@duttinger.com</podcast:email>
+      </podcast:podcastOwner>
+      <itunes:author>Orlando Tapes</itunes:author>
+      <itunes:subtitle>Live performance by Catnap at Will's Pub, Orlando, FL on April 19, 2025.</itunes:subtitle>
+      <itunes:summary>Live performance by Catnap at Will's Pub, Orlando, FL on April 19, 2025.</itunes:summary>
+      <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/catnap.jpg" />
+      <itunes:duration>00:22:28</itunes:duration>
+      <itunes:explicit>Yes</itunes:explicit>
   </channel>
 </rss>
