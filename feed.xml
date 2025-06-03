@@ -16,8 +16,8 @@
       <url>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/m.a.c.e.jpg</url>
       <title>Orlando Tapes</title>
       <link>https://orlandotapes.com</link>
-        </image>
-        <item> 
+    </image>
+    <item> 
       <title>M.A.C.E. Live at Stardust Coffee and Video</title>
       <link>https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Catnap-4.19.25-wills-pub.mp3</link>
       <description>Live performance by M.A.C.E. at Stardust Coffee and Video, Orlando, FL on May 3, 2025.</description>
@@ -49,8 +49,7 @@
       <itunes:duration>00:23:29</itunes:duration>
       <itunes:explicit>Yes</itunes:explicit>
     </item>
-    </image>
-        <item> 
+    <item> 
       <title>Youth To The Front - Catnap Live at Will's Pub</title>
       <link>https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Catnap-4.19.25-wills-pub.mp3</link>
       <description>Live performance by Catnap at Will's Pub, Orlando, FL on April 19, 2025.</description>
@@ -82,7 +81,7 @@
       <itunes:duration>00:22:28</itunes:duration>
       <itunes:explicit>Yes</itunes:explicit>
     </item>
-     <item>
+    <item>
       <title>Youth To The Front - Soft Live at Will's Pub</title>
       <link>https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Soft-4.19.25-wills-pub.mp3</link>
       <description>Live Performance by Soft at Will's Pub, Orlando, FL on April 19, 2025.</description>
