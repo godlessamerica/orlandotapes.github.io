@@ -130,7 +130,7 @@
       <podcast:podcastDescription>Live music performances captured in Orlando, FL</podcast:podcastDescription>
       <podcast:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/dogsmiles.jpg</podcast:podcastImage>
       <podcast:podcastAuthor>Orlando Tapes</podcast:podcastAuthor>
-      <podcast:podcastLink>https://orlandtapes.com</podcast:podcastLink>
+      <podcast:podcastLink>https://orlandotapes.com</podcast:podcastLink>
       <podcast:podcastLanguage>en-us</podcast:podcastLanguage>
       <podcast:podcastCategory>Music</podcast:podcastCategory>
       <podcast:podcastCopyright>© 2025 Orlando Tapes</podcast:podcastCopyright>
@@ -143,8 +143,6 @@
       <itunes:summary>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</itunes:summary>
       <itunes:duration>00:18:10</itunes:duration>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/dogsmiles.jpg" />
-    
     </item>
   </channel>
 </rss>
