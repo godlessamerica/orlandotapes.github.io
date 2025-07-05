@@ -7,18 +7,18 @@
     <pubDate>Mon, 21 Apr 2025 00:00:00 GMT</pubDate>
     <lastBuildDate>Mon, 21 Apr 2025 00:00:00 GMT</lastBuildDate>
     <category>Music</category>
-    <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/s.m.o.p.jpg" />
+    <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/misspell.jpg" />
     <atom:link href="https://orlandotapes.com/feed.xml" rel="self" type="application/rss+xml" />
     <itunes:category text="Music" />
     <itunes:type>episodic</itunes:type>
     <podcast:explicit>Yes</podcast:explicit>
     <item> 
       <title>Youth To The Front - Misspell Live at Will's Pub</title>
-      <link>https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Misspell-6.7.25.mp3</link>
+      <link>https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Misspell-6.7.25.wills-pub.mp3</link>
       <description>Live performance at Youth To The Front by Misspell at Will's Pub, Orlando, FL on June 7, 2025.</description>
       <pubDate>Sat, 5 July 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Misspell-6.7.25.mp3"  type="audio/mpeg" />
-      <guid isPermaLink="true">https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/YTF-Misspell-6.7.25.mp3</guid>
+      <enclosure url="https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Misspell-6.7.25.wills-pub.mp3"  type="audio/mpeg" />
+      <guid isPermaLink="true">https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/YTF-Misspell-6.7.25.wills-pub.mp3</guid>
       <podcast:author>Orlando Tapes</podcast:author>
       <podcast:summary>Live performance at Youth To The Front by Misspell at Will's Pub, Orlando, FL on June 7, 2025.</podcast:summary>
       <podcast:duration>00:19:29</podcast:duration>
