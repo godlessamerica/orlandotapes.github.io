@@ -1,17 +1,40 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+     xmlns:podcast="https://podcastindex.org/namespace/1.0" 
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Orlando Tapes</title>
+    <title>Orlando Tapes - Live Music Podcast from Orlando, FL</title>
     <link>https://orlandotapes.com</link>
-    <description>Live music performances captured in Orlando, FL</description>
+    <description>Discover Orlando's underground music scene through authentic live recordings from Will's Pub, Stardust Coffee &amp; Video, and other iconic venues. Each episode captures the raw energy of local bands and the vibrant Orlando music community.</description>
     <language>en-US</language>
-    <pubDate>Mon, 21 Apr 2025 00:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 21 Apr 2025 00:00:00 GMT</lastBuildDate>
+    <pubDate>Sun, 17 Aug 2025 00:00:00 GMT</pubDate>
+    <lastBuildDate>Sun, 17 Aug 2025 00:00:00 GMT</lastBuildDate>
+    <copyright>© 2025 Orlando Tapes. All rights reserved.</copyright>
+    <managingEditor>jordan@duttinger.com (Orlando Tapes)</managingEditor>
+    <webMaster>jordan@duttinger.com (Orlando Tapes)</webMaster>
     <category>Music</category>
-    <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/kitty-kitty-meow-meow.jpg" />
+    <category>Arts</category>
+    <category>Society &amp; Culture</category>
+    <itunes:image href="https://orlandotapes.com/images/orlando-tapes-cover.jpg" />
     <atom:link href="https://orlandotapes.com/feed.xml" rel="self" type="application/rss+xml" />
-    <itunes:category text="Music" />
+    <itunes:category text="Music">
+      <itunes:category text="Music Interviews" />
+    </itunes:category>
+    <itunes:category text="Arts">
+      <itunes:category text="Performing Arts" />
+    </itunes:category>
     <itunes:type>episodic</itunes:type>
-    <podcast:explicit>Yes</podcast:explicit>
+    <itunes:author>Orlando Tapes</itunes:author>
+    <itunes:owner>
+      <itunes:name>Orlando Tapes</itunes:name>
+      <itunes:email>jordan@duttinger.com</itunes:email>
+    </itunes:owner>
+    <itunes:subtitle>Orlando's Underground Music Scene Documented</itunes:subtitle>
+    <itunes:summary>Experience authentic live performances from Orlando's most beloved music venues. Orlando Tapes documents the city's vibrant underground music scene through high-quality live recordings from Will's Pub, Stardust Coffee &amp; Video, and other iconic locations. From punk and indie rock to experimental and electronic, discover the diverse talent that makes Orlando's music community truly special.</itunes:summary>
+    <itunes:keywords>Orlando music, live music, Will's Pub, Stardust Coffee, Florida music, local bands, underground music, indie rock, punk, live recordings</itunes:keywords>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:explicit>false</podcast:explicit>
     <item> 
       <title>Youth To The Front - Kitty Kitty Meow Meow Live at Will's Pub</title>
       <link>https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-kitty-kitty-meow-meow-6.7.25.wills-pub.mp3</link>

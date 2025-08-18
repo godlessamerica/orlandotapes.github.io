@@ -3,29 +3,161 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Orlando Tapes - Podcast</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Optional: Add your CSS file -->
+  
+  <!-- SEO Meta Tags -->
+  <title>Orlando Tapes - Live Music Podcast from Orlando, FL | Local Band Recordings</title>
+  <meta name="description" content="Discover Orlando's underground music scene through live recordings from Will's Pub, Stardust Coffee & Video, and other iconic venues. Subscribe to Orlando Tapes podcast for authentic local music performances.">
+  <meta name="keywords" content="Orlando live music, Orlando podcast, live music recordings, Will's Pub, Stardust Coffee, Orlando bands, Florida music scene, indie music Orlando">
+  <meta name="author" content="Orlando Tapes">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Orlando Tapes - Live Music Podcast from Orlando, FL">
+  <meta property="og:description" content="Discover Orlando's underground music scene through live recordings from Will's Pub, Stardust Coffee & Video, and other iconic venues.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://orlandotapes.com">
+  <meta property="og:image" content="https://orlandotapes.com/images/orlando-tapes-og-image.jpg">
+  <meta property="og:site_name" content="Orlando Tapes">
+  <meta property="og:locale" content="en_US">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Orlando Tapes - Live Music Podcast from Orlando, FL">
+  <meta name="twitter:description" content="Discover Orlando's underground music scene through live recordings from iconic venues.">
+  <meta name="twitter:image" content="https://orlandotapes.com/images/orlando-tapes-twitter-card.jpg">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://orlandotapes.com">
+  
+  <!-- RSS Feed -->
+  <link rel="alternate" type="application/rss+xml" title="Orlando Tapes Podcast Feed" href="https://orlandotapes.com/feed.xml">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Structured Data - Podcast Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastSeries",
+    "name": "Orlando Tapes",
+    "description": "Live music performances captured from Orlando, FL venues including Will's Pub, Stardust Coffee & Video, and other iconic locations in the city's vibrant underground music scene.",
+    "url": "https://orlandotapes.com",
+    "image": "https://orlandotapes.com/images/orlando-tapes-cover.jpg",
+    "author": {
+      "@type": "Organization",
+      "name": "Orlando Tapes"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Orlando Tapes"
+    },
+    "genre": ["Live Music", "Indie Rock", "Underground Music", "Local Music"],
+    "locationCreated": {
+      "@type": "Place",
+      "name": "Orlando",
+      "addressLocality": "Orlando",
+      "addressRegion": "FL",
+      "addressCountry": "US"
+    },
+    "webFeed": "https://orlandotapes.com/feed.xml",
+    "potentialAction": {
+      "@type": "SubscribeAction",
+      "target": "https://orlandotapes.com/feed.xml"
+    }
+  }
+  </script>
+
+  <!-- Local Business Schema for Orlando Music Scene -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Orlando Tapes",
+    "description": "Podcast featuring live music recordings from Orlando, Florida venues",
+    "url": "https://orlandotapes.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Orlando",
+      "addressRegion": "FL",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "28.5383",
+      "longitude": "-81.3792"
+    },
+    "sameAs": [
+      "https://orlandotapes.com/feed.xml"
+    ]
+  }
+  </script>
 </head>
 <body>
   <header>
     <h1>Orlando Tapes</h1>
     <p>Live music performances captured in Orlando, FL</p>
-    <p><a href="feed.xml" target="_blank">Subscribe to our RSS feed</a></p> <!-- RSS feed link -->
+    <nav>
+      <ul>
+        <li><a href="#episodes">Episodes</a></li>
+        <li><a href="#venues">Venues</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="feed.xml" target="_blank" rel="noopener">RSS Feed</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <section id="podcasts">
-      <h2>Podcast Episodes</h2>
-      <article>
-        <h3>07 Youth To The Front - Kitty Kitty Meow Meow Live at Will's Pub</h3>
-        <img src="https://github.com/godlessamerica/orlandotapes.github.io/blob/main/images/kitty-kitty-meow-meow.jpg?raw=true" alt="Youth To The Front - Kitty Kitty Meow Meow Live at Will's Pub">
-        <p>Live performance by Kitty Kitty Meow Meow at Will's Pub, Orlando, FL on June 7, 2025.</p>
-        <p><a href="https://www.instagram.com/kittymeow.x2/">Kitty Kitty Meow Meow Instagram</a></p>
-        <audio controls>
-          <source src="https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-Misspell-6.7.25.wills-pub.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
-        <p><strong>Duration:</strong> 20:30</p>
+    <section id="hero">
+      <h2>Discover Orlando's Underground Music Scene</h2>
+      <p>Experience authentic live performances from iconic venues like Will's Pub, Stardust Coffee & Video, and more. Each episode captures the raw energy and talent of Orlando's vibrant local music community.</p>
+      <a href="feed.xml" class="cta-button" target="_blank" rel="noopener">Subscribe to Podcast</a>
+    </section>
+
+    <section id="episodes">
+      <h2>Latest Podcast Episodes</h2>
+      <!-- Episode 7: Kitty Kitty Meow Meow -->
+      <article class="episode" itemscope itemtype="https://schema.org/PodcastEpisode">
+        <header>
+          <h3 itemprop="name">Kitty Kitty Meow Meow Live at Will's Pub - Youth To The Front Series</h3>
+          <meta itemprop="episodeNumber" content="7">
+        </header>
+        
+        <img src="https://github.com/godlessamerica/orlandotapes.github.io/blob/main/images/kitty-kitty-meow-meow.jpg?raw=true" 
+             alt="Kitty Kitty Meow Meow performing live at Will's Pub in Orlando" 
+             itemprop="image">
+        
+        <div class="episode-details">
+          <p itemprop="description">
+            Experience the raw energy of Kitty Kitty Meow Meow's live performance at Will's Pub in Orlando, FL. 
+            Recorded on June 7, 2025, this episode captures the band's unique sound and stage presence in one of 
+            Orlando's most beloved music venues. Will's Pub has been a cornerstone of the Orlando music scene, 
+            hosting both local and touring acts in an intimate setting perfect for discovering new talent.
+          </p>
+          
+          <div class="episode-meta">
+            <span><strong>Venue:</strong> <span itemprop="locationCreated" itemscope itemtype="https://schema.org/Place">
+              <span itemprop="name">Will's Pub</span>, 
+              <span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                <span itemprop="addressLocality">Orlando</span>, 
+                <span itemprop="addressRegion">FL</span>
+              </span>
+            </span></span>
+            <span><strong>Date:</strong> <time itemprop="datePublished" datetime="2025-06-07">June 7, 2025</time></span>
+            <span><strong>Duration:</strong> <span itemprop="duration" content="PT20M30S">20:30</span></span>
+          </div>
+          
+          <p><a href="https://www.instagram.com/kittymeow.x2/" target="_blank" rel="noopener">Follow Kitty Kitty Meow Meow on Instagram</a></p>
+          
+          <audio controls itemprop="associatedMedia" itemscope itemtype="https://schema.org/AudioObject">
+            <source src="https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-kitty-kitty-meow-meow-6.7.25.wills-pub.mp3" type="audio/mpeg">
+            <meta itemprop="contentUrl" content="https://github.com/godlessamerica/orlandotapes.github.io/raw/refs/heads/main/mp3s/YTF-kitty-kitty-meow-meow-6.7.25.wills-pub.mp3">
+            <meta itemprop="encodingFormat" content="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
       </article>
       
       <article>
@@ -102,10 +234,97 @@
     
       <!-- Add more episodes here -->
     </section>
+
+    <section id="venues">
+      <h2>Featured Orlando Music Venues</h2>
+      <div class="venues-grid">
+        <div class="venue" itemscope itemtype="https://schema.org/MusicVenue">
+          <h3 itemprop="name">Will's Pub</h3>
+          <p itemprop="description">
+            A cornerstone of Orlando's music scene, Will's Pub has been hosting live music for decades. 
+            Located in the Mills 50 district, this intimate venue is known for its diverse lineup of local 
+            and touring acts. From punk to indie rock, Will's Pub provides the perfect setting for discovering 
+            Orlando's underground music talent. The venue's intimate atmosphere creates an unmatched connection 
+            between artists and audience.
+          </p>
+          <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+            <span itemprop="addressLocality">Orlando</span>, 
+            <span itemprop="addressRegion">FL</span> - Mills 50 District
+          </div>
+          <p><strong>Featured Episodes:</strong> Youth To The Front series, featuring Kitty Kitty Meow Meow, Misspell, Catnap, Soft, and Dogsmiles</p>
+        </div>
+        
+        <div class="venue" itemscope itemtype="https://schema.org/MusicVenue">
+          <h3 itemprop="name">Stardust Coffee & Video</h3>
+          <p itemprop="description">
+            A unique combination of coffee shop and music venue, Stardust Coffee & Video provides an intimate setting 
+            for acoustic performances and experimental music in Orlando. Located near Winter Park, this venue champions 
+            local artists and creates a community space where music and coffee culture intersect. The venue's laid-back 
+            atmosphere makes it perfect for both established and emerging Orlando musicians.
+          </p>
+          <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+            <span itemprop="addressLocality">Orlando</span>, 
+            <span itemprop="addressRegion">FL</span> - Near Winter Park
+          </div>
+          <p><strong>Featured Episodes:</strong> S.M.O.P. and M.A.C.E. live performances</p>
+        </div>
+      </div>
+      
+      <div class="venue-cta">
+        <p>Want to see your venue featured on Orlando Tapes? <a href="mailto:jordan@duttinger.com">Get in touch</a> to discuss recording opportunities.</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Orlando Tapes</h2>
+      <div class="about-content">
+        <p>
+          Orlando Tapes documents the vibrant underground music scene of Orlando, Florida. We capture live 
+          performances from iconic venues across the city, preserving the authentic sound and energy of 
+          local musicians. From the intimate stages of Will's Pub in the Mills 50 district to the unique 
+          atmosphere of Stardust Coffee & Video, our podcast showcases the diverse talent that makes 
+          Orlando's music scene truly special.
+        </p>
+        <p>
+          Each episode is carefully recorded and mixed to provide listeners with an immersive experience 
+          of Orlando's live music culture. Our focus on authenticity means you'll hear the real energy 
+          of live performances - the crowd, the venue acoustics, and the raw talent of Orlando's 
+          underground musicians. Whether you're a longtime Orlando music fan or new to the scene, 
+          Orlando Tapes is your gateway to discovering the city's most exciting musical talent.
+        </p>
+        
+        <div class="series-info">
+          <h3>Series: Youth To The Front</h3>
+          <p>
+            Our flagship series "Youth To The Front" highlights emerging bands and established acts 
+            from Orlando's music community. Recorded primarily at Will's Pub, this series captures 
+            the essence of Orlando's underground music scene, featuring bands across genres from 
+            punk and indie rock to experimental and electronic music.
+          </p>
+        </div>
+        
+        <div class="contact-info">
+          <h3>Connect & Subscribe</h3>
+          <p>
+            Stay updated with the latest releases by subscribing to our 
+            <a href="feed.xml" target="_blank" rel="noopener">RSS feed</a>. 
+            Each episode brings you closer to Orlando's music community, featuring detailed information 
+            about the bands, venues, and the stories behind each performance.
+          </p>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>© 2025 Orlando Tapes. All rights reserved.</p>
+    <p>&copy; 2025 Orlando Tapes. All rights reserved.</p>
+    <nav>
+      <ul>
+        <li><a href="feed.xml" rel="noopener">RSS Feed</a></li>
+        <li><a href="mailto:jordan@duttinger.com">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
   </footer>
 </body>
 </html>
