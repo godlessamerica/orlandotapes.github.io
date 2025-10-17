@@ -2,3 +2,6 @@ README
 *.txt
 *.description
 update_feed_and_index.py
+# Audio files now hosted on Archive.org
+*.mp3
+mp3s/
