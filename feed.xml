@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns1="http://www.w3.org/2005/Atom" xmlns:ns2="https://podcastindex.org/namespace/1.0" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
     <title>Orlando Tapes - Live Music Podcast from Orlando, FL</title>
     <link>https://orlandotapes.com</link>
@@ -13,56 +13,56 @@
     <category>Music</category>
     <category>Arts</category>
     <category>Society &amp; Culture</category>
-    <ns0:image href="https://orlandotapes.com/images/kitty-kitty-meow-meow.jpg" />
-    <ns1:link href="https://orlandotapes.com/feed.xml" rel="self" type="application/rss+xml" />
-    <ns0:category text="Music">
-      <ns0:category text="Music Interviews" />
-    </ns0:category>
-    <ns0:category text="Arts">
-      <ns0:category text="Performing Arts" />
-    </ns0:category>
-    <ns0:type>episodic</ns0:type>
-    <ns0:author>Orlando Tapes</ns0:author>
-    <ns0:owner>
-      <ns0:name>Orlando Tapes</ns0:name>
-      <ns0:email>jordan@duttinger.com</ns0:email>
-    </ns0:owner>
-    <ns0:subtitle>Orlando's Underground Music Scene Documented</ns0:subtitle>
-    <ns0:summary>Experience authentic live performances from Orlando's most beloved music venues. Orlando Tapes documents the city's vibrant underground music scene through high-quality live recordings from Will's Pub, Stardust Coffee &amp; Video, and other iconic locations. From punk and indie rock to experimental and electronic, discover the diverse talent that makes Orlando's music community truly special.</ns0:summary>
-    <ns0:keywords>Orlando music, live music, Will's Pub, Stardust Coffee, Florida music, local bands, underground music, indie rock, punk, live recordings</ns0:keywords>
-    <ns0:explicit>false</ns0:explicit>
-    <ns2:explicit>false</ns2:explicit>
-    <item> 
+    <itunes:image href="https://github.com/godlessamerica/orlandotapes.github.io/blob/main/images/the-delusionaires.jpg?raw=true" />
+    <atom:link href="https://orlandotapes.com/feed.xml" rel="self" type="application/rss+xml" />
+    <itunes:category text="Music">
+      <itunes:category text="Music Interviews" />
+    </itunes:category>
+    <itunes:category text="Arts">
+      <itunes:category text="Performing Arts" />
+    </itunes:category>
+    <itunes:type>episodic</itunes:type>
+    <itunes:author>Orlando Tapes</itunes:author>
+    <itunes:owner>
+      <itunes:name>Orlando Tapes</itunes:name>
+      <itunes:email>jordan@duttinger.com</itunes:email>
+    </itunes:owner>
+    <itunes:subtitle>Orlando's Underground Music Scene Documented</itunes:subtitle>
+    <itunes:summary>Experience authentic live performances from Orlando's most beloved music venues. Orlando Tapes documents the city's vibrant underground music scene through high-quality live recordings from Will's Pub, Stardust Coffee &amp; Video, and other iconic locations. From punk and indie rock to experimental and electronic, discover the diverse talent that makes Orlando's music community truly special.</itunes:summary>
+    <itunes:keywords>Orlando music, live music, Will's Pub, Stardust Coffee, Florida music, local bands, underground music, indie rock, punk, live recordings</itunes:keywords>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:explicit>false</podcast:explicit>
+    <item><title>The Delusionaires Live at Will's Pub</title><link>https://archive.org/download/the-delusionaires-willspub-9.5.25/the-delusionaires-willspub-9.5.25.mp3</link><description>Live performance by The Delusionaires at Will's Pub, Orlando, FL on September 5, 2025.</description><pubDate>Fri, 5 Sep 2025 00:00:00 GMT</pubDate><enclosure url="https://archive.org/download/the-delusionaires-willspub-9.5.25/the-delusionaires-willspub-9.5.25.mp3" length="115773469" type="audio/mpeg" /><guid isPermaLink="true">https://archive.org/download/the-delusionaires-willspub-9.5.25/the-delusionaires-willspub-9.5.25.mp3</guid><itunes:image href="https://github.com/godlessamerica/orlandotapes.github.io/blob/main/images/the-delusionaires.jpg?raw=true" /><itunes:author>Orlando Tapes</itunes:author><itunes:summary>Live performance by The Delusionaires at Will's Pub, Orlando, FL on September 5, 2025.</itunes:summary><itunes:duration>01:14:56</itunes:duration><podcast:episodeType>full</podcast:episodeType><podcast:explicit>no</podcast:explicit><podcast:season>1</podcast:season><podcast:episode>8</podcast:episode></item><item> 
       <title>Youth To The Front - Kitty Kitty Meow Meow Live at Will's Pub</title>
       <link>https://archive.org/download/ytf-kitty-kitty-meow-meow-6.7.25.wills-pub/YTF-kitty-kitty-meow-meow-6.7.25.wills-pub.mp3</link>
       <description>Live performance at Youth To The Front by Kitty Kitty Meow Meow at Will's Pub, Orlando, FL on June 7, 2025.</description>
       <pubDate>Sun, 17 Aug 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://archive.org/download/ytf-kitty-kitty-meow-meow-6.7.25.wills-pub/YTF-kitty-kitty-meow-meow-6.7.25.wills-pub.mp3" type="audio/mpeg" />
       <guid isPermaLink="true">https://archive.org/download/ytf-kitty-kitty-meow-meow-6.7.25.wills-pub/YTF-kitty-kitty-meow-meow-6.7.25.wills-pub.mp3</guid>
-      <ns2:author>Orlando Tapes</ns2:author>
-      <ns2:summary>Live performance at Youth To The Front by Kitty Kitty Meow Meow at Will's Pub, Orlando, FL on June 7, 2025.</ns2:summary>
-      <ns2:duration>00:20:30</ns2:duration>
-      <ns2:episodeType>full</ns2:episodeType>
-      <ns2:explicit>Yes</ns2:explicit>
-      <ns2:podcastId>https://orlandotapes.com</ns2:podcastId>
-      <ns2:podcastTitle>Orlando Tapes</ns2:podcastTitle>
-      <ns2:podcastDescription>Live music performances captured in Orlando, FL</ns2:podcastDescription>
-      <ns2:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/kitty-kitty-meow-meow.jpg</ns2:podcastImage>
-      <ns2:podcastAuthor>Orlando Tapes</ns2:podcastAuthor>
-      <ns2:podcastLink>https://orlandotapes.com</ns2:podcastLink>
-      <ns2:podcastLanguage>en-us</ns2:podcastLanguage>
-      <ns2:podcastCategory>Music</ns2:podcastCategory>
-      <ns2:podcastCopyright>© 2025 Orlando Tapes</ns2:podcastCopyright>
-      <ns2:podcastOwner>
-        <ns2:name>Orlando Tapes</ns2:name>
-        <ns2:email>jordan@duttinger.com</ns2:email>
-      </ns2:podcastOwner>
-      <ns0:author>Orlando Tapes</ns0:author>
-      <ns0:subtitle>Live performance by Kitty Kitty Meow Meow at Will's Pub, Orlando, FL on June 7, 2025.</ns0:subtitle>
-      <ns0:summary>Live performance by Kitty Kitty Meow Meow at Will's Pub, Orlando, FL on June 7, 2025.</ns0:summary>
-      <ns0:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/kitty-kitty-meow-meow.jpg" />
-      <ns0:duration>00:20:30</ns0:duration>
-      <ns0:explicit>Yes</ns0:explicit>
+      <podcast:author>Orlando Tapes</podcast:author>
+      <podcast:summary>Live performance at Youth To The Front by Kitty Kitty Meow Meow at Will's Pub, Orlando, FL on June 7, 2025.</podcast:summary>
+      <podcast:duration>00:20:30</podcast:duration>
+      <podcast:episodeType>full</podcast:episodeType>
+      <podcast:explicit>Yes</podcast:explicit>
+      <podcast:podcastId>https://orlandotapes.com</podcast:podcastId>
+      <podcast:podcastTitle>Orlando Tapes</podcast:podcastTitle>
+      <podcast:podcastDescription>Live music performances captured in Orlando, FL</podcast:podcastDescription>
+      <podcast:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/kitty-kitty-meow-meow.jpg</podcast:podcastImage>
+      <podcast:podcastAuthor>Orlando Tapes</podcast:podcastAuthor>
+      <podcast:podcastLink>https://orlandotapes.com</podcast:podcastLink>
+      <podcast:podcastLanguage>en-us</podcast:podcastLanguage>
+      <podcast:podcastCategory>Music</podcast:podcastCategory>
+      <podcast:podcastCopyright>© 2025 Orlando Tapes</podcast:podcastCopyright>
+      <podcast:podcastOwner>
+        <podcast:name>Orlando Tapes</podcast:name>
+        <podcast:email>jordan@duttinger.com</podcast:email>
+      </podcast:podcastOwner>
+      <itunes:author>Orlando Tapes</itunes:author>
+      <itunes:subtitle>Live performance by Kitty Kitty Meow Meow at Will's Pub, Orlando, FL on June 7, 2025.</itunes:subtitle>
+      <itunes:summary>Live performance by Kitty Kitty Meow Meow at Will's Pub, Orlando, FL on June 7, 2025.</itunes:summary>
+      <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/kitty-kitty-meow-meow.jpg" />
+      <itunes:duration>00:20:30</itunes:duration>
+      <itunes:explicit>Yes</itunes:explicit>
     </item>
     <item> 
       <title>Youth To The Front - Misspell Live at Will's Pub</title>
@@ -71,30 +71,30 @@
       <pubDate>Sat, 5 July 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://archive.org/download/ytf-misspell-6.7.25.wills-pub/YTF-Misspell-6.7.25.wills-pub.mp3" type="audio/mpeg" />
       <guid isPermaLink="true">https://archive.org/download/ytf-misspell-6.7.25.wills-pub/YTF-Misspell-6.7.25.wills-pub.mp3</guid>
-      <ns2:author>Orlando Tapes</ns2:author>
-      <ns2:summary>Live performance at Youth To The Front by Misspell at Will's Pub, Orlando, FL on June 7, 2025.</ns2:summary>
-      <ns2:duration>00:19:29</ns2:duration>
-      <ns2:episodeType>full</ns2:episodeType>
-      <ns2:explicit>Yes</ns2:explicit>
-      <ns2:podcastId>https://orlandotapes.com</ns2:podcastId>
-      <ns2:podcastTitle>Orlando Tapes</ns2:podcastTitle>
-      <ns2:podcastDescription>Live music performances captured in Orlando, FL</ns2:podcastDescription>
-      <ns2:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/misspell.jpg</ns2:podcastImage>
-      <ns2:podcastAuthor>Orlando Tapes</ns2:podcastAuthor>
-      <ns2:podcastLink>https://orlandotapes.com</ns2:podcastLink>
-      <ns2:podcastLanguage>en-us</ns2:podcastLanguage>
-      <ns2:podcastCategory>Music</ns2:podcastCategory>
-      <ns2:podcastCopyright>© 2025 Orlando Tapes</ns2:podcastCopyright>
-      <ns2:podcastOwner>
-        <ns2:name>Orlando Tapes</ns2:name>
-        <ns2:email>jordan@duttinger.com</ns2:email>
-      </ns2:podcastOwner>
-      <ns0:author>Orlando Tapes</ns0:author>
-      <ns0:subtitle>Live performance by Misspell at Will's Pub, Orlando, FL on June 7, 2025.</ns0:subtitle>
-      <ns0:summary>Live performance by Misspell at Will's Pub, Orlando, FL on June 7, 2025.</ns0:summary>
-      <ns0:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/misspell.jpg" />
-      <ns0:duration>00:19:29</ns0:duration>
-      <ns0:explicit>Yes</ns0:explicit>
+      <podcast:author>Orlando Tapes</podcast:author>
+      <podcast:summary>Live performance at Youth To The Front by Misspell at Will's Pub, Orlando, FL on June 7, 2025.</podcast:summary>
+      <podcast:duration>00:19:29</podcast:duration>
+      <podcast:episodeType>full</podcast:episodeType>
+      <podcast:explicit>Yes</podcast:explicit>
+      <podcast:podcastId>https://orlandotapes.com</podcast:podcastId>
+      <podcast:podcastTitle>Orlando Tapes</podcast:podcastTitle>
+      <podcast:podcastDescription>Live music performances captured in Orlando, FL</podcast:podcastDescription>
+      <podcast:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/misspell.jpg</podcast:podcastImage>
+      <podcast:podcastAuthor>Orlando Tapes</podcast:podcastAuthor>
+      <podcast:podcastLink>https://orlandotapes.com</podcast:podcastLink>
+      <podcast:podcastLanguage>en-us</podcast:podcastLanguage>
+      <podcast:podcastCategory>Music</podcast:podcastCategory>
+      <podcast:podcastCopyright>© 2025 Orlando Tapes</podcast:podcastCopyright>
+      <podcast:podcastOwner>
+        <podcast:name>Orlando Tapes</podcast:name>
+        <podcast:email>jordan@duttinger.com</podcast:email>
+      </podcast:podcastOwner>
+      <itunes:author>Orlando Tapes</itunes:author>
+      <itunes:subtitle>Live performance by Misspell at Will's Pub, Orlando, FL on June 7, 2025.</itunes:subtitle>
+      <itunes:summary>Live performance by Misspell at Will's Pub, Orlando, FL on June 7, 2025.</itunes:summary>
+      <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/misspell.jpg" />
+      <itunes:duration>00:19:29</itunes:duration>
+      <itunes:explicit>Yes</itunes:explicit>
     </item>
     <item> 
       <title>S.M.O.P. Live at Stardust Coffee and Video</title>
@@ -103,30 +103,30 @@
       <pubDate>Tues, 3 June 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://archive.org/download/s.-m.-o.-p.-stardust-coffee-and-video-5.3.25/S.M.O.P.-stardust-coffee-and-video-5.3.25.mp3" length="26533683" type="audio/mpeg" />
       <guid isPermaLink="true">https://archive.org/download/s.-m.-o.-p.-stardust-coffee-and-video-5.3.25/S.M.O.P.-stardust-coffee-and-video-5.3.25.mp3</guid>
-      <ns2:author>Orlando Tapes</ns2:author>
-      <ns2:summary>Live performance by S.M.O.P. at Stardust Coffee and Video, Orlando, FL on May 3, 2025.</ns2:summary>
-      <ns2:duration>00:24:24</ns2:duration>
-      <ns2:episodeType>full</ns2:episodeType>
-      <ns2:explicit>Yes</ns2:explicit>
-      <ns2:podcastId>https://orlandotapes.com</ns2:podcastId>
-      <ns2:podcastTitle>Orlando Tapes</ns2:podcastTitle>
-      <ns2:podcastDescription>Live music performances captured in Orlando, FL</ns2:podcastDescription>
-      <ns2:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/s.m.o.p.jpg</ns2:podcastImage>
-      <ns2:podcastAuthor>Orlando Tapes</ns2:podcastAuthor>
-      <ns2:podcastLink>https://orlandotapes.com</ns2:podcastLink>
-      <ns2:podcastLanguage>en-us</ns2:podcastLanguage>
-      <ns2:podcastCategory>Music</ns2:podcastCategory>
-      <ns2:podcastCopyright>© 2025 Orlando Tapes</ns2:podcastCopyright>
-      <ns2:podcastOwner>
-        <ns2:name>Orlando Tapes</ns2:name>
-        <ns2:email>jordan@duttinger.com</ns2:email>
-      </ns2:podcastOwner>
-      <ns0:author>Orlando Tapes</ns0:author>
-      <ns0:subtitle>Live performance by S.M.O.P. at Stardust Coffee and Video, Orlando, FL on May 3, 2025.</ns0:subtitle>
-      <ns0:summary>Live performance by S.M.O.P. at Stardust Coffee and Video, Orlando, FL on May 3, 2025..</ns0:summary>
-      <ns0:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/s.m.o.p.jpg" />
-      <ns0:duration>00:24:24</ns0:duration>
-      <ns0:explicit>Yes</ns0:explicit>
+      <podcast:author>Orlando Tapes</podcast:author>
+      <podcast:summary>Live performance by S.M.O.P. at Stardust Coffee and Video, Orlando, FL on May 3, 2025.</podcast:summary>
+      <podcast:duration>00:24:24</podcast:duration>
+      <podcast:episodeType>full</podcast:episodeType>
+      <podcast:explicit>Yes</podcast:explicit>
+      <podcast:podcastId>https://orlandotapes.com</podcast:podcastId>
+      <podcast:podcastTitle>Orlando Tapes</podcast:podcastTitle>
+      <podcast:podcastDescription>Live music performances captured in Orlando, FL</podcast:podcastDescription>
+      <podcast:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/s.m.o.p.jpg</podcast:podcastImage>
+      <podcast:podcastAuthor>Orlando Tapes</podcast:podcastAuthor>
+      <podcast:podcastLink>https://orlandotapes.com</podcast:podcastLink>
+      <podcast:podcastLanguage>en-us</podcast:podcastLanguage>
+      <podcast:podcastCategory>Music</podcast:podcastCategory>
+      <podcast:podcastCopyright>© 2025 Orlando Tapes</podcast:podcastCopyright>
+      <podcast:podcastOwner>
+        <podcast:name>Orlando Tapes</podcast:name>
+        <podcast:email>jordan@duttinger.com</podcast:email>
+      </podcast:podcastOwner>
+      <itunes:author>Orlando Tapes</itunes:author>
+      <itunes:subtitle>Live performance by S.M.O.P. at Stardust Coffee and Video, Orlando, FL on May 3, 2025.</itunes:subtitle>
+      <itunes:summary>Live performance by S.M.O.P. at Stardust Coffee and Video, Orlando, FL on May 3, 2025..</itunes:summary>
+      <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/s.m.o.p.jpg" />
+      <itunes:duration>00:24:24</itunes:duration>
+      <itunes:explicit>Yes</itunes:explicit>
     </item>
     <item> 
       <title>M.A.C.E. Live at Stardust Coffee and Video</title>
@@ -135,30 +135,30 @@
       <pubDate>Mon, 12 May 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://archive.org/download/m.-a.-c.-e.-5.3.25-stardust-coffee/M.A.C.E.-5.3.25-stardust-coffee.mp3" length="26533683" type="audio/mpeg" />
       <guid isPermaLink="true">https://archive.org/download/m.-a.-c.-e.-5.3.25-stardust-coffee/M.A.C.E.-5.3.25-stardust-coffee.mp3</guid>
-      <ns2:author>Orlando Tapes</ns2:author>
-      <ns2:summary>Live performance by M.A.C.E. at Stardust Coffee and Video, Orlando, FL on May 3, 2025.</ns2:summary>
-      <ns2:duration>00:23:29</ns2:duration>
-      <ns2:episodeType>full</ns2:episodeType>
-      <ns2:explicit>Yes</ns2:explicit>
-      <ns2:podcastId>https://orlandotapes.com</ns2:podcastId>
-      <ns2:podcastTitle>Orlando Tapes</ns2:podcastTitle>
-      <ns2:podcastDescription>Live music performances captured in Orlando, FL</ns2:podcastDescription>
-      <ns2:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/m.a.c.e.jpg</ns2:podcastImage>
-      <ns2:podcastAuthor>Orlando Tapes</ns2:podcastAuthor>
-      <ns2:podcastLink>https://orlandotapes.com</ns2:podcastLink>
-      <ns2:podcastLanguage>en-us</ns2:podcastLanguage>
-      <ns2:podcastCategory>Music</ns2:podcastCategory>
-      <ns2:podcastCopyright>© 2025 Orlando Tapes</ns2:podcastCopyright>
-      <ns2:podcastOwner>
-        <ns2:name>Orlando Tapes</ns2:name>
-        <ns2:email>jordan@duttinger.com</ns2:email>
-      </ns2:podcastOwner>
-      <ns0:author>Orlando Tapes</ns0:author>
-      <ns0:subtitle>Live performance by M.A.C.E. at Stardust Coffee and Video, Orlando, FL on May 3, 2025.</ns0:subtitle>
-      <ns0:summary>Live performance by M.A.C.E. at Stardust Coffee and Video, Orlando, FL on May 3, 2025..</ns0:summary>
-      <ns0:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/m.a.c.e.jpg" />
-      <ns0:duration>00:23:29</ns0:duration>
-      <ns0:explicit>Yes</ns0:explicit>
+      <podcast:author>Orlando Tapes</podcast:author>
+      <podcast:summary>Live performance by M.A.C.E. at Stardust Coffee and Video, Orlando, FL on May 3, 2025.</podcast:summary>
+      <podcast:duration>00:23:29</podcast:duration>
+      <podcast:episodeType>full</podcast:episodeType>
+      <podcast:explicit>Yes</podcast:explicit>
+      <podcast:podcastId>https://orlandotapes.com</podcast:podcastId>
+      <podcast:podcastTitle>Orlando Tapes</podcast:podcastTitle>
+      <podcast:podcastDescription>Live music performances captured in Orlando, FL</podcast:podcastDescription>
+      <podcast:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/m.a.c.e.jpg</podcast:podcastImage>
+      <podcast:podcastAuthor>Orlando Tapes</podcast:podcastAuthor>
+      <podcast:podcastLink>https://orlandotapes.com</podcast:podcastLink>
+      <podcast:podcastLanguage>en-us</podcast:podcastLanguage>
+      <podcast:podcastCategory>Music</podcast:podcastCategory>
+      <podcast:podcastCopyright>© 2025 Orlando Tapes</podcast:podcastCopyright>
+      <podcast:podcastOwner>
+        <podcast:name>Orlando Tapes</podcast:name>
+        <podcast:email>jordan@duttinger.com</podcast:email>
+      </podcast:podcastOwner>
+      <itunes:author>Orlando Tapes</itunes:author>
+      <itunes:subtitle>Live performance by M.A.C.E. at Stardust Coffee and Video, Orlando, FL on May 3, 2025.</itunes:subtitle>
+      <itunes:summary>Live performance by M.A.C.E. at Stardust Coffee and Video, Orlando, FL on May 3, 2025..</itunes:summary>
+      <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/m.a.c.e.jpg" />
+      <itunes:duration>00:23:29</itunes:duration>
+      <itunes:explicit>Yes</itunes:explicit>
     </item>
     <item> 
       <title>Youth To The Front - Catnap Live at Will's Pub</title>
@@ -167,30 +167,30 @@
       <pubDate>Mon, 5 May 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://archive.org/download/ytf-catnap-4.19.25-wills-pub/YTF-Catnap-4.19.25-wills-pub.mp3" length="26533683" type="audio/mpeg" />
       <guid isPermaLink="true">https://archive.org/download/ytf-catnap-4.19.25-wills-pub/YTF-Catnap-4.19.25-wills-pub.mp3</guid>
-      <ns2:author>Orlando Tapes</ns2:author>
-      <ns2:summary>Live performance by Catnap at Will's Pub, Orlando, FL on April 19, 2025.</ns2:summary>
-      <ns2:duration>00:22:28</ns2:duration>
-      <ns2:episodeType>full</ns2:episodeType>
-      <ns2:explicit>Yes</ns2:explicit>
-      <ns2:podcastId>https://orlandotapes.com</ns2:podcastId>
-      <ns2:podcastTitle>Orlando Tapes</ns2:podcastTitle>
-      <ns2:podcastDescription>Live music performances captured in Orlando, FL</ns2:podcastDescription>
-      <ns2:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/catnap.jpg</ns2:podcastImage>
-      <ns2:podcastAuthor>Orlando Tapes</ns2:podcastAuthor>
-      <ns2:podcastLink>https://orlandotapes.com</ns2:podcastLink>
-      <ns2:podcastLanguage>en-us</ns2:podcastLanguage>
-      <ns2:podcastCategory>Music</ns2:podcastCategory>
-      <ns2:podcastCopyright>© 2025 Orlando Tapes</ns2:podcastCopyright>
-      <ns2:podcastOwner>
-        <ns2:name>Orlando Tapes</ns2:name>
-        <ns2:email>jordan@duttinger.com</ns2:email>
-      </ns2:podcastOwner>
-      <ns0:author>Orlando Tapes</ns0:author>
-      <ns0:subtitle>Live performance by Catnap at Will's Pub, Orlando, FL on April 19, 2025.</ns0:subtitle>
-      <ns0:summary>Live performance by Catnap at Will's Pub, Orlando, FL on April 19, 2025.</ns0:summary>
-      <ns0:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/catnap.jpg" />
-      <ns0:duration>00:22:28</ns0:duration>
-      <ns0:explicit>Yes</ns0:explicit>
+      <podcast:author>Orlando Tapes</podcast:author>
+      <podcast:summary>Live performance by Catnap at Will's Pub, Orlando, FL on April 19, 2025.</podcast:summary>
+      <podcast:duration>00:22:28</podcast:duration>
+      <podcast:episodeType>full</podcast:episodeType>
+      <podcast:explicit>Yes</podcast:explicit>
+      <podcast:podcastId>https://orlandotapes.com</podcast:podcastId>
+      <podcast:podcastTitle>Orlando Tapes</podcast:podcastTitle>
+      <podcast:podcastDescription>Live music performances captured in Orlando, FL</podcast:podcastDescription>
+      <podcast:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/catnap.jpg</podcast:podcastImage>
+      <podcast:podcastAuthor>Orlando Tapes</podcast:podcastAuthor>
+      <podcast:podcastLink>https://orlandotapes.com</podcast:podcastLink>
+      <podcast:podcastLanguage>en-us</podcast:podcastLanguage>
+      <podcast:podcastCategory>Music</podcast:podcastCategory>
+      <podcast:podcastCopyright>© 2025 Orlando Tapes</podcast:podcastCopyright>
+      <podcast:podcastOwner>
+        <podcast:name>Orlando Tapes</podcast:name>
+        <podcast:email>jordan@duttinger.com</podcast:email>
+      </podcast:podcastOwner>
+      <itunes:author>Orlando Tapes</itunes:author>
+      <itunes:subtitle>Live performance by Catnap at Will's Pub, Orlando, FL on April 19, 2025.</itunes:subtitle>
+      <itunes:summary>Live performance by Catnap at Will's Pub, Orlando, FL on April 19, 2025.</itunes:summary>
+      <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/catnap.jpg" />
+      <itunes:duration>00:22:28</itunes:duration>
+      <itunes:explicit>Yes</itunes:explicit>
     </item>
     <item>
       <title>Youth To The Front - Soft Live at Will's Pub</title>
@@ -199,30 +199,30 @@
       <pubDate>Sun, 27 Apr 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://archive.org/download/ytf-soft-4.19.25-wills-pub/YTF-Soft-4.19.25-wills-pub.mp3" length="26533683" type="audio/mpeg" />
       <guid isPermaLink="true">https://archive.org/download/ytf-soft-4.19.25-wills-pub/YTF-Soft-4.19.25-wills-pub.mp3</guid>
-      <ns2:author>Orlando Tapes</ns2:author>
-      <ns2:summary>Youth To The Front presents a live performance by Soft at Will's Pub, showcasing their unique sound and energy.</ns2:summary>
-      <ns2:duration>00:15:47</ns2:duration>
-      <ns2:episodeType>full</ns2:episodeType>
-      <ns2:explicit>Yes</ns2:explicit>
-      <ns2:podcastId>https://orlandotapes.com</ns2:podcastId>
-      <ns2:podcastTitle>Orlando Tapes</ns2:podcastTitle>
-      <ns2:podcastDescription>Live music performances captured in Orlando, FL</ns2:podcastDescription>
-      <ns2:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/soft.jpg</ns2:podcastImage>
-      <ns2:podcastAuthor>Orlando Tapes</ns2:podcastAuthor>
-      <ns2:podcastLink>https://orlandotapes.com</ns2:podcastLink>
-      <ns2:podcastLanguage>en-us</ns2:podcastLanguage>
-      <ns2:podcastCategory>Music</ns2:podcastCategory>
-      <ns2:podcastCopyright>© 2025 Orlando Tapes</ns2:podcastCopyright>
-      <ns2:podcastOwner>
-        <ns2:name>Orlando Tapes</ns2:name>
-        <ns2:email>jordan@duttinger.com</ns2:email>
-      </ns2:podcastOwner>
-      <ns0:author>Orlando Tapes</ns0:author>
-      <ns0:subtitle>Youth To The Front presents a live performance by Soft at Will's Pub, showcasing their unique sound and energy.</ns0:subtitle>
-      <ns0:summary>Youth To The Front presents a live performance by Soft at Will's Pub, showcasing their unique sound and energy.</ns0:summary>
-      <ns0:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/soft.jpg" />
-      <ns0:duration>00:15:47</ns0:duration>
-      <ns2:explicit>Yes</ns2:explicit>
+      <podcast:author>Orlando Tapes</podcast:author>
+      <podcast:summary>Youth To The Front presents a live performance by Soft at Will's Pub, showcasing their unique sound and energy.</podcast:summary>
+      <podcast:duration>00:15:47</podcast:duration>
+      <podcast:episodeType>full</podcast:episodeType>
+      <podcast:explicit>Yes</podcast:explicit>
+      <podcast:podcastId>https://orlandotapes.com</podcast:podcastId>
+      <podcast:podcastTitle>Orlando Tapes</podcast:podcastTitle>
+      <podcast:podcastDescription>Live music performances captured in Orlando, FL</podcast:podcastDescription>
+      <podcast:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/soft.jpg</podcast:podcastImage>
+      <podcast:podcastAuthor>Orlando Tapes</podcast:podcastAuthor>
+      <podcast:podcastLink>https://orlandotapes.com</podcast:podcastLink>
+      <podcast:podcastLanguage>en-us</podcast:podcastLanguage>
+      <podcast:podcastCategory>Music</podcast:podcastCategory>
+      <podcast:podcastCopyright>© 2025 Orlando Tapes</podcast:podcastCopyright>
+      <podcast:podcastOwner>
+        <podcast:name>Orlando Tapes</podcast:name>
+        <podcast:email>jordan@duttinger.com</podcast:email>
+      </podcast:podcastOwner>
+      <itunes:author>Orlando Tapes</itunes:author>
+      <itunes:subtitle>Youth To The Front presents a live performance by Soft at Will's Pub, showcasing their unique sound and energy.</itunes:subtitle>
+      <itunes:summary>Youth To The Front presents a live performance by Soft at Will's Pub, showcasing their unique sound and energy.</itunes:summary>
+      <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/soft.jpg" />
+      <itunes:duration>00:15:47</itunes:duration>
+      <podcast:explicit>Yes</podcast:explicit>
     </item>
     <item>
       <title>Youth To The Front - Dogsmiles Live at Will's Pub</title>
@@ -231,29 +231,29 @@
       <pubDate>Mon, 21 Apr 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://archive.org/download/ytf-dogsmiles-4.19.25-wills-pub/YTF-Dogsmiles-4.19.25-wills-pub.mp3" length="26533683" type="audio/mpeg" />
       <guid isPermaLink="true">https://archive.org/download/ytf-dogsmiles-4.19.25-wills-pub/YTF-Dogsmiles-4.19.25-wills-pub.mp3</guid>
-      <ns0:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/dogsmiles.jpg" />    
-      <ns2:author>Orlando Tapes</ns2:author>
-      <ns2:summary>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</ns2:summary>
-      <ns2:duration>00:18:10</ns2:duration>
-      <ns2:explicit>Yes</ns2:explicit>
-      <ns2:podcastId>https://orlandotapes.com</ns2:podcastId>
-      <ns2:podcastTitle>Orlando Tapes</ns2:podcastTitle>
-      <ns2:podcastDescription>Live music performances captured in Orlando, FL</ns2:podcastDescription>
-      <ns2:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/dogsmiles.jpg</ns2:podcastImage>
-      <ns2:podcastAuthor>Orlando Tapes</ns2:podcastAuthor>
-      <ns2:podcastLink>https://orlandotapes.com</ns2:podcastLink>
-      <ns2:podcastLanguage>en-us</ns2:podcastLanguage>
-      <ns2:podcastCategory>Music</ns2:podcastCategory>
-      <ns2:podcastCopyright>© 2025 Orlando Tapes</ns2:podcastCopyright>
-      <ns2:podcastOwner>
-        <ns2:name>Orlando Tapes</ns2:name>
-        <ns2:email>jordan@duttinger.com</ns2:email>
-      </ns2:podcastOwner>
-      <ns0:author>Orlando Tapes</ns0:author>
-      <ns0:subtitle>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</ns0:subtitle>
-      <ns0:summary>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</ns0:summary>
-      <ns0:duration>00:18:10</ns0:duration>
-      <ns0:explicit>Yes</ns0:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/dogsmiles.jpg" />    
+      <podcast:author>Orlando Tapes</podcast:author>
+      <podcast:summary>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</podcast:summary>
+      <podcast:duration>00:18:10</podcast:duration>
+      <podcast:explicit>Yes</podcast:explicit>
+      <podcast:podcastId>https://orlandotapes.com</podcast:podcastId>
+      <podcast:podcastTitle>Orlando Tapes</podcast:podcastTitle>
+      <podcast:podcastDescription>Live music performances captured in Orlando, FL</podcast:podcastDescription>
+      <podcast:podcastImage>https://raw.githubusercontent.com/godlessamerica/orlandotapes.github.io/refs/heads/main/images/dogsmiles.jpg</podcast:podcastImage>
+      <podcast:podcastAuthor>Orlando Tapes</podcast:podcastAuthor>
+      <podcast:podcastLink>https://orlandotapes.com</podcast:podcastLink>
+      <podcast:podcastLanguage>en-us</podcast:podcastLanguage>
+      <podcast:podcastCategory>Music</podcast:podcastCategory>
+      <podcast:podcastCopyright>© 2025 Orlando Tapes</podcast:podcastCopyright>
+      <podcast:podcastOwner>
+        <podcast:name>Orlando Tapes</podcast:name>
+        <podcast:email>jordan@duttinger.com</podcast:email>
+      </podcast:podcastOwner>
+      <itunes:author>Orlando Tapes</itunes:author>
+      <itunes:subtitle>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</itunes:subtitle>
+      <itunes:summary>Live performance by Dogsmiles at Will's Pub, Orlando, FL on April 19, 2025.</itunes:summary>
+      <itunes:duration>00:18:10</itunes:duration>
+      <itunes:explicit>Yes</itunes:explicit>
     </item>
-  <item><title>The Delusionaires Live at Will's Pub</title><link>https://archive.org/download/the-delusionaires-willspub-9.5.25/the-delusionaires-willspub-9.5.25.mp3</link><description>Live performance by The Delusionaires at Will's Pub, Orlando, FL on September 5, 2025.</description><pubDate>Fri, 5 Sep 2025 00:00:00 GMT</pubDate><enclosure url="https://archive.org/download/the-delusionaires-willspub-9.5.25/the-delusionaires-willspub-9.5.25.mp3" length="115773469" type="audio/mpeg" /><guid isPermaLink="true">https://archive.org/download/the-delusionaires-willspub-9.5.25/the-delusionaires-willspub-9.5.25.mp3</guid><itunes:image href="https://github.com/godlessamerica/orlandotapes.github.io/blob/main/images/the-delusionaires.jpg?raw=true" /><itunes:author>Orlando Tapes</itunes:author><itunes:summary>Live performance by The Delusionaires at Will's Pub, Orlando, FL on September 5, 2025.</itunes:summary><itunes:duration>01:14:56</itunes:duration><podcast:episodeType>full</podcast:episodeType><podcast:explicit>no</podcast:explicit><podcast:season>1</podcast:season><podcast:episode>8</podcast:episode></item></channel>
+  </channel>
 </rss>
