@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+from xml.dom import minidom
 import re
 
 # Register namespaces to preserve prefixes
@@ -27,48 +28,27 @@ def add_episode_to_feed(feed_path, index_path, episode_data):
     root = tree.getroot()
     channel = root.find("channel")
 
-    # Create a new <item> element for the episode with proper namespaces
-    item = ET.Element("item")
-    ET.SubElement(item, "title").text = episode_data["title"]
-    ET.SubElement(item, "link").text = episode_data["audio_url"]
-    ET.SubElement(item, "description").text = episode_data["description"]
-    ET.SubElement(item, "pubDate").text = episode_data["pub_date"]
-    ET.SubElement(item, "enclosure", {
-        "url": episode_data["audio_url"],
-        "length": episode_data["audio_length"],
-        "type": "audio/mpeg"
-    })
-    ET.SubElement(item, "guid", {"isPermaLink": "true"}).text = episode_data["audio_url"]
-    ET.SubElement(item, "{http://www.itunes.com/dtds/podcast-1.0.dtd}image", {"href": episode_data["image_url"]})
-    ET.SubElement(item, "{http://www.itunes.com/dtds/podcast-1.0.dtd}author").text = episode_data["author"]
-    ET.SubElement(item, "{http://www.itunes.com/dtds/podcast-1.0.dtd}summary").text = episode_data["summary"]
-    ET.SubElement(item, "{http://www.itunes.com/dtds/podcast-1.0.dtd}duration").text = episode_data["duration"]
-    ET.SubElement(item, "{https://podcastindex.org/namespace/1.0}episodeType").text = "full"
-    ET.SubElement(item, "{https://podcastindex.org/namespace/1.0}explicit").text = "no"
-    ET.SubElement(item, "{https://podcastindex.org/namespace/1.0}season").text = str(episode_data["season"])
-    ET.SubElement(item, "{https://podcastindex.org/namespace/1.0}episode").text = str(episode_data["episode"])
-
-    # Insert the new item as the first episode (after channel metadata)
-    # Find the first existing <item> and insert before it
-    items = channel.findall("item")
-    if items:
-        item_index = list(channel).index(items[0])
-        channel.insert(item_index, item)
+    # Instead of using ElementTree, manually insert the formatted XML
+    # to preserve proper formatting and match existing episodes
+    new_item_xml = f"""<item><title>{episode_data["title"]}</title><link>{episode_data["audio_url"]}</link><description>{episode_data["description"]}</description><pubDate>{episode_data["pub_date"]}</pubDate><enclosure url="{episode_data["audio_url"]}" length="{episode_data["audio_length"]}" type="audio/mpeg" /><guid isPermaLink="true">{episode_data["audio_url"]}</guid><itunes:image href="{episode_data["image_url"]}" /><itunes:author>{episode_data["author"]}</itunes:author><itunes:summary>{episode_data["summary"]}</itunes:summary><itunes:duration>{episode_data["duration"]}</itunes:duration><podcast:episodeType>full</podcast:episodeType><podcast:explicit>no</podcast:explicit><podcast:season>{episode_data["season"]}</podcast:season><podcast:episode>{episode_data["episode"]}</podcast:episode></item>"""
+    
+    # Find where to insert the new item (after the <podcast:explicit>false</podcast:explicit> line)
+    insert_marker = '<podcast:explicit>false</podcast:explicit>'
+    
+    if insert_marker in feed_content:
+        # Insert the new episode right after the channel metadata
+        feed_content = feed_content.replace(
+            insert_marker,
+            insert_marker + '\n    ' + new_item_xml,
+            1  # Only replace the first occurrence
+        )
     else:
-        channel.append(item)
-
-    # Write the updated feed.xml back to file with updated image
-    tree.write(feed_path, encoding="utf-8", xml_declaration=True)
+        # Fallback: insert before first <item> tag
+        feed_content = feed_content.replace('<item>', new_item_xml + '<item>', 1)
     
-    # Now update the image in the written file using the regex-updated content
-    with open(feed_path, 'r', encoding='utf-8') as f:
-        written_content = f.read()
-    
-    # Apply the image update to the written content
-    written_content = re.sub(image_pattern, new_image, written_content, count=1)
-    
+    # Write the updated feed
     with open(feed_path, 'w', encoding='utf-8') as f:
-        f.write(written_content)
+        f.write(feed_content)
 
     # Update the index.html file
     with open(index_path, "r") as file:
