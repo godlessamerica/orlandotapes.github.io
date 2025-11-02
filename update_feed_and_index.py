@@ -96,10 +96,10 @@ def add_episode_to_feed(feed_path, index_path, episode_data):
 # NOTE: Upload audio file to Archive.org first, then use the Archive.org URL
 episode_data = {
     "title": "Tiger Beat Live at Uncle Lou's",
-    "audio_url": "https://archive.org/download/tiger-beat-uncle-lous-9.12.25/tiger-beat-uncle-lous-9.12.25.mp3",
+    "audio_url": "https://archive.org/download/tiger-beat-uncle-lous-9.12.25/Tiger-Beat-UncleLous-9.12.25.mp3",
     "description": "A fuzzed out freak out at the most important incubator of the underground music the world famous Uncle Lou's on Mills Ave in Orlando FL.",
     "pub_date": "Fri, 12 Sep 2025 00:00:00 GMT",
-    "audio_length": "31457280",  # 30.0 MB
+    "audio_length": "31386793",  # 29.9 MB
     "image_url": "https://github.com/godlessamerica/orlandotapes.github.io/blob/main/images/tiger-beat.jpg?raw=true",
     "author": "Orlando Tapes",
     "summary": "A fuzzed out freak out at the most important incubator of the underground music the world famous Uncle Lou's on Mills Ave in Orlando FL.",
