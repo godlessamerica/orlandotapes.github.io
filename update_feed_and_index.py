@@ -115,19 +115,19 @@ def add_episode_to_feed(feed_path, index_path, episode_data):
 # This is where would add the new episode data
 # NOTE: Upload audio file to Archive.org first, then use the Archive.org URL
 episode_data = {
-    "title": "The Delusionaires Live at Will's Pub",
-    "audio_url": "https://archive.org/download/the-delusionaires-willspub-9.5.25/the-delusionaires-willspub-9.5.25.mp3",
-    "description": "Live performance by The Delusionaires at Will's Pub, Orlando, FL on September 5, 2025.",
-    "pub_date": "Fri, 5 Sep 2025 00:00:00 GMT",
-    "audio_length": "115773469",  # 110.4 MB
-    "image_url": "https://github.com/godlessamerica/orlandotapes.github.io/blob/main/images/the-delusionaires.jpg?raw=true",
+    "title": "Tiger Beat Live at Uncle Lou's",
+    "audio_url": "https://archive.org/download/tiger-beat-uncle-lous-9.12.25/tiger-beat-uncle-lous-9.12.25.mp3",
+    "description": "A fuzzed out freak out at the most important incubator of the underground music the world famous Uncle Lou's on Mills Ave in Orlando FL.",
+    "pub_date": "Fri, 12 Sep 2025 00:00:00 GMT",
+    "audio_length": "31457280",  # 30.0 MB
+    "image_url": "https://github.com/godlessamerica/orlandotapes.github.io/blob/main/images/tiger-beat.jpg?raw=true",
     "author": "Orlando Tapes",
-    "summary": "Live performance by The Delusionaires at Will's Pub, Orlando, FL on September 5, 2025.",
-    "duration": "01:14:56",
+    "summary": "A fuzzed out freak out at the most important incubator of the underground music the world famous Uncle Lou's on Mills Ave in Orlando FL.",
+    "duration": "22:21",
     "season": 1,
-    "episode": 8,
-    "learnmore_url": "https://www.discogs.com/artist/1582722-The-Delusionaires",
-    "archive_identifier": "the-delusionaires-willspub-9.5.25"  # Archive.org identifier for tracking
+    "episode": 9,
+    "learnmore_url": "https://radioinformationservices.bandcamp.com/album/art-imitates-art",
+    "archive_identifier": "tiger-beat-uncle-lous-9.12.25"  # Archive.org identifier for tracking
 }
 
 feed_path = "/home/cloudcassette/Projects/orlandotapes.github.io/feed.xml"
